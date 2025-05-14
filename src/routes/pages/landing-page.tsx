@@ -10,8 +10,8 @@ const LandingPage: React.FC<ILandingPageProps> = () => {
         sx={{ display: "flex", justifyContent: "space-around", height: "80%" }}
       >
         <div>
-          <Typography sx={{ color: "white" }}>
-            <h1>Portfolio</h1>
+          <Typography component="h1" variant="h3" color="white">
+            Portfolio
           </Typography>
         </div>
         <div>
