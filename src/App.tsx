@@ -4,7 +4,7 @@ import Router from "./routes/router";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio-vite">
         <Router />
       </BrowserRouter>
     </>
